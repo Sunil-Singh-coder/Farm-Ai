@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+ {% block title %} SignUp-{% endblock title %}
+
+{% block maincontent %}
+<section class="auth-section">
+    <div class="auth-container">
+        <h2>Sign Up for Farm AI</h2>
+        <form id="signup-form" action="{{ url_for('signup') }}" method="POST">
+            <div class="form-group">
+                <input type="text" id="username" name="username" required placeholder="Choose a username">
+                <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" required placeholder="Create a password">
+                <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+                <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
+                <div class="form-line"></div>
+            </div>
+            <button type="submit" class="auth-btn btn-primary">Sign Up</button>
+            <p class="auth-link">Already have an account? <a href="{{ url_for('login') }}">Login</a></p>
+        </form>
+    </div>
+</section>
+{% endblock maincontent %}

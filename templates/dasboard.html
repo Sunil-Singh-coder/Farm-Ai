@@ -1,0 +1,17 @@
+
+{% extends 'base.html' %}
+{% block maincontent %}
+<section class="dashboard-section">
+    <div class="container">
+        <div class="user-box">
+            <h2 class="section-title">Welcome, {{ session['username'] }}!</h2>
+            <p class="user-box-description">Start chatting with Farm AI to optimize your farming goals.</p>
+            <div class="chat-area">
+                <textarea class="form-input form-textarea" placeholder="Type your message here..." rows="4"></textarea>
+                <button class="btn btn-primary btn-full chat-submit">Send Message</button>
+            </div>
+            <a href="{{ url_for('logout') }}" class="btn btn-secondary btn-full">Logout</a>
+        </div>
+    </div>
+</section>
+{% endblock maincontent %}

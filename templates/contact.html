@@ -1,0 +1,73 @@
+ {% extends 'base.html' %}
+ {% block title %} Conatct-{% endblock title %}
+{% block maincontent %}
+
+ <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Get Started Today</h2>
+                    <p class="contact-description">
+                        Ready to transform your farming with AI? Join thousands of farmers who are already 
+                        using Farm AI to increase their yields and profits. Start your free trial today!
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>support@farmai.in</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+91 98765 43210</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Bangalore, Karnataka, India</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕒</span>
+                            <span>24/7 AI Support Available</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Email Address" required>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-input" placeholder="Phone Number" required>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-input" required>
+                                <option value="">Select Your Crop Type</option>
+                                <option value="wheat">Wheat</option>
+                                <option value="rice">Rice</option>
+                                <option value="cotton">Cotton</option>
+                                <option value="sugarcane">Sugarcane</option>
+                                <option value="vegetables">Vegetables</option>
+                                <option value="fruits">Fruits</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input form-textarea" placeholder="Tell us about your farming goals" rows="4"></textarea>
+                            <div class="form-line"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock maincontent %}

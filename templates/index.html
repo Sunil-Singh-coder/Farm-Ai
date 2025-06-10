@@ -1,0 +1,665 @@
+
+{% extends 'base.html' %}
+{% block maincontent %}
+
+<!-- Hero Section -->
+<section id="hero" class="hero">
+    <div class="hero-bg"></div>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line"><span class="highlight">Farm AI:</span></span>
+                    <span class="title-line">Kheti ka</span>
+                    <span class="title-line">Naya Daur</span>
+                </h1>
+                <p class="hero-description">
+                    Empowering Indian farmers with AI-driven solutions for smarter farming,
+                    higher yields, and sustainable agriculture. Available in Hindi, Tamil, and Telugu.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary"
+                        onclick="window.open('https://farm-ai-344e44.zapier.app/', '_blank')">
+                        Go to Farm AI
+                    </button>
+
+
+                    <button class="btn btn-secondary" onclick="window.location.href='/additional'">
+                        Explore Features
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="cube-container">
+                    <div class="cube">
+                        <div class="cube-face front"></div>
+                        <div class="cube-face back"></div>
+                        <div class="cube-face right"></div>
+                        <div class="cube-face left"></div>
+                        <div class="cube-face top"></div>
+                        <div class="cube-face bottom"></div>
+                    </div>
+                    <div class="orbit-rings">
+                        <div class="ring ring-1"></div>
+                        <div class="ring ring-2"></div>
+                        <div class="ring ring-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="features">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Revolutionary Features</h2>
+            <p class="section-subtitle">AI-powered tools designed for modern Indian farming</p>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card fade-in" data-tilt>
+                <div class="feature-icon">
+                    <div class="icon-3d icon-cube"></div>
+                </div>
+                <h3 class="feature-title">Personalized Training</h3>
+                <p class="feature-description">
+                    Get customized farming courses based on your crop type, soil condition, and local climate.
+                    Learn at your own pace with interactive modules in your preferred language.
+                </p>
+                <div class="feature-stats">
+                    <span class="stat">95% Success Rate</span>
+                    <span class="stat">3 Languages</span>
+                </div>
+            </div>
+
+            <div class="feature-card fade-in" data-tilt>
+                <div class="feature-icon">
+                    <div class="icon-3d icon-sphere"></div>
+                </div>
+                <h3 class="feature-title">Crop Disease Detection</h3>
+                <p class="feature-description">
+                    Instantly identify plant diseases by taking photos. Our AI provides immediate diagnosis
+                    and treatment recommendations with industry-leading accuracy.
+                </p>
+                <div class="feature-stats">
+                    <span class="stat">98% Accuracy</span>
+                    <span class="stat">Real-time</span>
+                </div>
+            </div>
+
+            <div class="feature-card fade-in" data-tilt>
+                <div class="feature-icon">
+                    <div class="icon-3d icon-pyramid"></div>
+                </div>
+                <h3 class="feature-title">Market Insights</h3>
+                <p class="feature-description">
+                    Real-time crop prices, demand forecasts, and optimal selling strategies.
+                    Maximize your profits with data-driven market intelligence.
+                </p>
+                <div class="feature-stats">
+                    <span class="stat">500+ Markets</span>
+                    <span class="stat">24/7 Updates</span>
+                </div>
+            </div>
+
+            <div class="feature-card fade-in" data-tilt>
+                <div class="feature-icon">
+                    <div class="icon-3d icon-cube"></div>
+                </div>
+                <h3 class="feature-title">Smart Irrigation</h3>
+                <p class="feature-description">
+                    IoT sensors monitor soil moisture and weather patterns to optimize water usage.
+                    Save water while maximizing crop yield with precision irrigation.
+                </p>
+                <div class="feature-stats">
+                    <span class="stat">40% Water Saved</span>
+                    <span class="stat">IoT Enabled</span>
+                </div>
+            </div>
+
+            <div class="feature-card fade-in" data-tilt>
+                <div class="feature-icon">
+                    <div class="icon-3d icon-sphere"></div>
+                </div>
+                <h3 class="feature-title">Weather Prediction</h3>
+                <p class="feature-description">
+                    Advanced AI models predict weather patterns up to 15 days in advance.
+                    Plan your farming activities with confidence and protect your crops.
+                </p>
+                <div class="feature-stats">
+                    <span class="stat">15-Day Forecast</span>
+                    <span class="stat">AI Powered</span>
+                </div>
+            </div>
+
+            <div class="feature-card fade-in" data-tilt>
+                <div class="feature-icon">
+                    <div class="icon-3d icon-pyramid"></div>
+                </div>
+                <h3 class="feature-title">Community Support</h3>
+                <p class="feature-description">
+                    Connect with thousands of farmers across India. Share experiences,
+                    get expert advice, and access 24/7 AI-powered support.
+                </p>
+                <div class="feature-stats">
+                    <span class="stat">50K+ Farmers</span>
+                    <span class="stat">24/7 Support</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Premium Features Section -->
+<section id="premium" class="premium-features">
+    <div class="premium-bg"></div>
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="premium-header">
+            <div class="premium-badge">
+                <span class="premium-dot"></span>
+                <span class="premium-text">Premium Features</span>
+            </div>
+
+            <h2 class="premium-title">
+                <span class="premium-gradient">Unlock Advanced</span><br>
+                <span class="premium-white">AI-Powered Farming</span>
+            </h2>
+
+            <p class="premium-description">
+                Transform your farming with cutting-edge AI technology. Get personalized insights,
+                predictive analytics, and automated solutions designed for modern agriculture.
+            </p>
+        </div>
+
+        <!-- Premium Features Grid -->
+        <div class="premium-grid">
+            <!-- Personalized Recommendations -->
+            <div class="premium-card fade-in" data-tilt>
+                <div class="premium-icon">
+                    <svg class="premium-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="premium-card-title">Personalized Recommendations</h3>
+                <p class="premium-card-description">
+                    Get customized fertilizer and manure recommendations with step-by-step organic preparation guides.
+                    AI analyzes your soil, crop type, and local conditions for optimal results.
+                </p>
+                <div class="premium-tags">
+                    <span class="premium-tag premium-tag-green">Organic Guides</span>
+                    <span class="premium-tag premium-tag-blue">Custom Plans</span>
+                </div>
+            </div>
+
+            <!-- Disease Detection -->
+            <div class="premium-card fade-in" data-tilt>
+                <div class="premium-icon">
+                    <svg class="premium-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="premium-card-title">AI Crop Disease Detection</h3>
+                <p class="premium-card-description">
+                    Instantly identify diseases with 98% accuracy using your smartphone camera.
+                    Get severity assessment and tailored treatment solutions within seconds.
+                </p>
+                <div class="premium-tags">
+                    <span class="premium-tag premium-tag-green">98% Accuracy</span>
+                    <span class="premium-tag premium-tag-blue">Real-time</span>
+                </div>
+            </div>
+
+            <!-- Predictive Analytics -->
+            <div class="premium-card fade-in" data-tilt>
+                <div class="premium-icon">
+                    <svg class="premium-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="premium-card-title">Predictive Yield Analytics</h3>
+                <p class="premium-card-description">
+                    Forecast your harvest yields using weather patterns, soil conditions, and historical data.
+                    Optimize crop planning and maximize profits with data-driven insights.
+                </p>
+                <div class="premium-tags">
+                    <span class="premium-tag premium-tag-green">Weather AI</span>
+                    <span class="premium-tag premium-tag-blue">Yield Forecast</span>
+                </div>
+            </div>
+
+            <!-- Soil Health Monitoring -->
+            <div class="premium-card fade-in" data-tilt>
+                <div class="premium-icon">
+                    <svg class="premium-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="premium-card-title">AI Soil Health Monitoring</h3>
+                <p class="premium-card-description">
+                    Get detailed soil analysis reports with nutrient levels, pH balance, and improvement
+                    recommendations.
+                    Monitor soil health trends and receive alerts for optimal farming conditions.
+                </p>
+                <div class="premium-tags">
+                    <span class="premium-tag premium-tag-green">pH Analysis</span>
+                    <span class="premium-tag premium-tag-blue">Nutrients</span>
+                </div>
+            </div>
+
+            <!-- Smart Irrigation -->
+            <div class="premium-card fade-in" data-tilt>
+                <div class="premium-icon">
+                    <svg class="premium-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z">
+                        </path>
+                    </svg>
+                </div>
+                <h3 class="premium-card-title">Automated Irrigation Scheduling</h3>
+                <p class="premium-card-description">
+                    AI-powered irrigation system integrates real-time weather data and soil moisture levels.
+                    Optimize water usage, reduce costs, and improve crop health automatically.
+                </p>
+                <div class="premium-tags">
+                    <span class="premium-tag premium-tag-green">Auto Schedule</span>
+                    <span class="premium-tag premium-tag-blue">Water Savings</span>
+                </div>
+            </div>
+
+            <!-- Market Intelligence -->
+            <div class="premium-card fade-in" data-tilt>
+                <div class="premium-icon">
+                    <svg class="premium-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                    </svg>
+                </div>
+                <h3 class="premium-card-title">Market Price Intelligence</h3>
+                <p class="premium-card-description">
+                    Advanced market trend analysis and price forecasting for optimal selling decisions.
+                    Get alerts for best selling times and maximize your profit margins.
+                </p>
+                <div class="premium-tags">
+                    <span class="premium-tag premium-tag-green">Price Alerts</span>
+                    <span class="premium-tag premium-tag-blue">Trend Analysis</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Premium Benefits -->
+        <div class="premium-benefits">
+            <h3 class="benefits-title">Additional Premium Benefits</h3>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg class="benefit-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h4 class="benefit-title">Pest Outbreak Forecasting</h4>
+                    <p class="benefit-description">Early warning system for pest infestations</p>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg class="benefit-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
+                            </path>
+                        </svg>
+                    </div>
+                    <h4 class="benefit-title">Crop Rotation Planning</h4>
+                    <p class="benefit-description">Optimize soil health with AI-planned rotations</p>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg class="benefit-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h4 class="benefit-title">Climate Risk Assessment</h4>
+                    <p class="benefit-description">Protect crops from extreme weather events</p>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <svg class="benefit-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h4 class="benefit-title">Expert Consultation</h4>
+                    <p class="benefit-description">24/7 access to agricultural specialists</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pricing and CTA -->
+        <div class="premium-cta">
+            <div class="cta-content">
+                <h3 class="cta-title">
+                    <span class="cta-gradient">Transform Your Farm Today</span>
+                </h3>
+                <p class="cta-description">
+                    Join thousands of farmers who have increased their yields by up to 40% with our AI-powered platform
+                </p>
+
+                <!-- Pricing -->
+                <div class="pricing-container">
+                    <div class="pricing-option">
+                        <div class="price-amount">₹2,999</div>
+                        <div class="price-period">per month</div>
+                    </div>
+                    <div class="pricing-divider">/</div>
+                    <div class="pricing-option">
+                        <div class="price-amount price-yearly">₹29,999</div>
+                        <div class="price-period">per year</div>
+                        <div class="price-badge">Save 17%</div>
+                    </div>
+                </div>
+
+                <!-- Benefits -->
+                <div class="cta-benefits">
+                    <div class="cta-benefit">
+                        <div class="benefit-check">
+                            <svg class="check-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="benefit-text">All Premium Features</span>
+                    </div>
+                    <div class="cta-benefit">
+                        <div class="benefit-check">
+                            <svg class="check-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="benefit-text">24/7 Expert Support</span>
+                    </div>
+                    <div class="cta-benefit">
+                        <div class="benefit-check">
+                            <svg class="check-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <span class="benefit-text">30-Day Money Back</span>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="cta-buttons">
+                    <button class="btn btn-premium">
+                        Start Premium Trial
+                    </button>
+                    <button class="btn btn-demo">
+                        Schedule Demo
+                    </button>
+                </div>
+
+                <!-- Trust Indicators -->
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <svg class="trust-icon" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span>50,000+ Active Farmers</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg class="trust-icon" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span>98% Accuracy Rate</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg class="trust-icon" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span>40% Average Yield Increase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-count="50000">0</div>
+                <div class="stat-label">Active Farmers</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-count="35">0</div>
+                <div class="stat-label">% Yield Increase</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-count="500">0</div>
+                <div class="stat-label">Markets Tracked</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number" data-count="98">0</div>
+                <div class="stat-label">% Accuracy Rate</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="section-title">About Farm AI</h2>
+                <p class="about-description">
+                    Farm AI is a revolutionary platform that combines artificial intelligence with traditional
+                    farming wisdom to help Indian farmers increase productivity and profitability. Our AI-powered
+                    tools provide personalized farming guidance, real-time crop monitoring, and market insights
+                    tailored specifically for Indian agriculture.
+                </p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <div class="feature-bullet"></div>
+                        <span>AI-powered crop disease detection with 98% accuracy</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="feature-bullet"></div>
+                        <span>Real-time market prices and demand forecasting</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="feature-bullet"></div>
+                        <span>Personalized training in Hindi, Tamil, and Telugu</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="feature-bullet"></div>
+                        <span>Smart irrigation and weather prediction systems</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="feature-bullet"></div>
+                        <span>24/7 community support and expert consultation</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary">Join Our Community</button>
+            </div>
+
+            <div class="about-visual">
+                <div class="morphing-shape">
+                    <div class="morph-layer layer-1"></div>
+                    <div class="morph-layer layer-2"></div>
+                    <div class="morph-layer layer-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Success Stories Section -->
+<section class="success-stories">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Success Stories</h2>
+            <p class="section-subtitle">Real farmers, real results</p>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card fade-in">
+                <p class="testimonial-text">
+                    "Farm AI helped me increase my wheat yield by 35% in just one season. The disease detection
+                    feature saved my crops from a major fungal infection. Now I earn ₹50,000 more per harvest!"
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">R</div>
+                    <div class="author-info">
+                        <h4>Ramesh Kumar</h4>
+                        <p>Wheat Farmer, Punjab</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card fade-in">
+                <p class="testimonial-text">
+                    "The market insights feature is amazing! I now know exactly when to sell my tomatoes for
+                    the best price. Farm AI's Tamil support made it so easy for me to understand all features."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">L</div>
+                    <div class="author-info">
+                        <h4>Lakshmi Devi</h4>
+                        <p>Vegetable Farmer, Tamil Nadu</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card fade-in">
+                <p class="testimonial-text">
+                    "Smart irrigation system reduced my water usage by 40% while increasing crop quality.
+                    The weather predictions help me plan better and protect my crops from unexpected changes."
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">A</div>
+                    <div class="author-info">
+                        <h4>Arjun Reddy</h4>
+                        <p>Cotton Farmer, Telangana</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-content">
+            <div class="contact-info">
+                <h2 class="section-title">Get Started Today</h2>
+                <p class="contact-description">
+                    Ready to transform your farming with AI? Join thousands of farmers who are already
+                    using Farm AI to increase their yields and profits. Start your free trial today!
+                </p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <span>support@farmai.in</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+91 98765 43210</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>Bangalore, Karnataka, India</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🕒</span>
+                        <span>24/7 AI Support Available</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form class="form">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" required>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Email Address" required>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-input" placeholder="Phone Number" required>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-input" required>
+                            <option value="">Select Your Crop Type</option>
+                            <option value="wheat">Wheat</option>
+                            <option value="rice">Rice</option>
+                            <option value="cotton">Cotton</option>
+                            <option value="sugarcane">Sugarcane</option>
+                            <option value="vegetables">Vegetables</option>
+                            <option value="fruits">Fruits</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input form-textarea" placeholder="Tell us about your farming goals"
+                            rows="4"></textarea>
+                        <div class="form-line"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Start Free Trial</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock maincontent %}
