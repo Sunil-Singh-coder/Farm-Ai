@@ -1,3 +1,8 @@
+# ✅ Essential build tools to avoid installation errors
+pip>=25.1.1
+setuptools>=65.5.0
+wheel>=0.40.0
+
 anyio==4.9.0
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
@@ -71,7 +76,6 @@ pycparser==2.22
 Pygments==2.19.1
 python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
-pywinpty==2.0.15
 PyYAML==6.0.2
 pyzmq==26.4.0
 referencing==0.36.2
@@ -99,3 +103,4 @@ webcolors==24.11.1
 webencodings==0.5.1
 websocket-client==1.8.0
 Werkzeug==3.1.3
+
